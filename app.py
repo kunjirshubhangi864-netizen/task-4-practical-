@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Version 1: Hello from Python Docker Application!"
+    return "Version 2: Code Updated Successfully through GitHub Actions!"
 
 @app.route("/about")
 def about():
@@ -17,5 +17,6 @@ def contact():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
 
 
